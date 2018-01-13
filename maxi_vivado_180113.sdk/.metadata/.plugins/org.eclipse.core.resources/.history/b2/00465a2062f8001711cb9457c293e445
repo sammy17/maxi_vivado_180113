@@ -1,0 +1,9 @@
+#include <xparameters.h>
+#include <xbgsub.h>
+#include <xfeature.h>
+
+
+int main()
+{
+	return 0;
+}

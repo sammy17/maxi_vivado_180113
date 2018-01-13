@@ -1,0 +1,28 @@
+#include <xparameters.h>
+#include <xbgsub.h>
+#include <xfeature.h>
+#include <stdio.h>
+#include <string.h>
+#include <xtime_l.h>
+#include "frame1.h"
+
+
+#define TX_BASE_ADDR 0x11000000
+#define RX_BASE_ADDR 0x12000000
+
+#define M_AXI_BOUNDING 0x21000000
+#define M_AXI_FEATUREH 0x29000000
+
+uint32_t *m_buffer_TX = (uint32_t*) TX_BASE_ADDR;
+uint8_t *m_test = (uint8_t*) TX_BASE_ADDR;
+unsigned char *m_buffer_RX = (unsigned char*) RX_BASE_ADDR;
+
+uint16_t * m_axi_bound = (uint16_t *) M_AXI_BOUNDING;
+uint16_t * m_axi_feature = (uint16_t *) M_AXI_FEATUREH;
+
+
+int main()
+{
+
+	return 0;
+}

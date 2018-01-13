@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Sat Jan 13 17:02:10 2018
+| Host         : pc running 64-bit Ubuntu 16.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_feature_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_feature_0_2 (xilinx.com:hls:feature:1.0) from (Rev. 1801131013) to (Rev. 1801131648)
+
